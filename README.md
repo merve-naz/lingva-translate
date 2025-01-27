@@ -60,13 +60,13 @@ services:
       - default_source_lang=auto
       - default_target_lang=en
     ports:
-      - 3000:3000
+      - 3001:3001
 ```
 
 #### Docker Run
 
 ```bash
-docker run -p 3000:3000 -e site_domain=lingva.ml -e force_default_theme=light -e default_source_lang=auto -e default_target_lang=en thedaviddelta/lingva-translate:latest
+docker run -p 3001:3001 -e site_domain=lingva.ml -e force_default_theme=light -e default_source_lang=auto -e default_target_lang=en thedaviddelta/lingva-translate:latest
 ```
 
 ### Vercel

@@ -7,7 +7,7 @@ export default defineConfig({
     projectId: 'qgjdyd',
     e2e: {
         setupNodeEvents(on, config) {},
-        baseUrl: 'http://localhost:3000',
+        baseUrl: 'http://localhost:3001',
         specPattern: 'cypress/e2e/**/*.{js,jsx,ts,tsx}'
     }
 });

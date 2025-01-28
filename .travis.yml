@@ -27,7 +27,7 @@ branches:
 script:
   - yarn test --ci
   - NEXT_PUBLIC_FORCE_DEFAULT_THEME=light yarn build
-  - yarn start & wait-on http://localhost:3000
+  - yarn start & wait-on http://localhost:3001
   - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ];
     then
       yarn cy:run --record --key $CY_KEY;
